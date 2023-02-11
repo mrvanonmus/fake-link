@@ -7,7 +7,7 @@ It generates a hidden URL for social engineering.
 $ apt-get install git
 $ git clone https://github.com/mrvanonmus/fake-link
 $ cd fake-link
-$ pip3 install -r requirements.txt
+$ pip3 install requests 
 $ python3 fake.py
 ```
 # Termux
@@ -17,7 +17,7 @@ pkg install python
 pkg install git
 git clone https://github.com/mrvanonmus/fake-link
 cd fake-link
-pip install -r requirements.txt
+pip install requests 
 python fake.py
 ```
 <img src="https://raw.githubusercontent.com/mrvanonmus/fake-link/main/src/Kazam_screenshot_00003.png"></img>
